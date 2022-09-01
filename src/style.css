@@ -6,9 +6,7 @@
     
 }
 
-body{
-    
-}
+
 
 .header{
     text-align: center;
@@ -16,3 +14,7 @@ body{
     color: var(--main-color);
 }
 
+.foodpic{
+    display: flex;
+    
+}
