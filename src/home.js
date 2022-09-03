@@ -1,10 +1,9 @@
-import food from'./images.jpg';
+import food from'./images/images.jpg';
 
 const homeFunction = () => {
 
-
 const divContent = document.getElementById('content')  
-
+divContent.replaceChildren();
 //Header
 const header = document.createElement('h1');
 header.classList.add('header');
